@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+  .tile-wrap {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .tile-wrap, .tile-wrap .tile-wrap-part, .tile-wrap .tile-wrap-part div {
+    display: block;
+  }
+  .tile-wrap {
+    height: inherit !important;
+    width: inherit !important;
+    .tile-wrap-part {
+      width: 100%;
+      height: inherit !important;
+    }
+
+    .tile-wrap-part div {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .site-footer {
+    position: relative;
+  }
+}
+

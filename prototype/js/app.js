@@ -2,8 +2,6 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-$(".tiles-content").mCustomScrollbar();
-
 function getElementHeight(elem) {
   return $(elem).height();
 }
@@ -17,8 +15,8 @@ function getTilesHeight() {
   return $tilesHeight;
 }
 
-function getContentTilesHeight(){
-  var $tilesHeight = ($browserHeight - ($footHeight + $navHeight))
+function getContentTilesHeight() {
+  var $tilesHeight = ($browserHeight - ($footHeight + $navHeight));
   return $tilesHeight;
 }
 
