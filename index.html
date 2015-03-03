@@ -1,12 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Link Landshut - coming soon</title>
+  <title>LINK.WORK</title>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    img {
+      height: 200%;
+      max-width: 100%;
+      display: inline;
+      border: 0;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Coming soon</h1>
+<img id="linkwork-logo" alt="LINK.WORK" src="concept/img/LINKWORK-LogoHeadline.png" />
 
+<script>
+  var $logo = document.getElementById('link-logo');
+  var scrollDown = Math.round(Math.random());
+  var s = window.innerHeight * scrollDown;
+  window.addEventListener('load', function() {
+    console.log(s);
+    if (s) {
+      document.body.style.backgroundColor = '#404041';
+    } else {
+      document.body.style.backgroundColor = '#ffffff';
+    }
+    window.scrollTo(0, s);
+  });
+</script>
 </body>
 </html>
