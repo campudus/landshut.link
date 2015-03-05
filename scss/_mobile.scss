@@ -5,29 +5,26 @@
 
       .nav-col-one, .nav-col-two {
         height: auto;
-        padding-top:20px;
-        padding-bottom:20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
       }
 
       .nav-col-one svg, .nav-col-two h2 {
-        @include translate(0, 0);
-        top: inherit;
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
       }
 
       .nav-col-one svg {
+        left: 5%;
         position: relative;
-        left: 0;
-        width: 290px;
-        margin-left:0;
       }
 
       .nav-col-two h2 {
         color: $light-grey;
         font-size: 20px;
-        right: inherit;
+        float: left;
         position: relative;
+        margin-left: 5%;
       }
     }
 
@@ -37,8 +34,9 @@
 
     .description {
       .desc-col-one {
+        padding: 5%;
+
         p {
-          padding: 5% 0 5% 0;
           width: 100%;
           position: static;
           top: inherit;
@@ -46,10 +44,12 @@
           font-size: 16px;
           @include translate(0, 0);
           margin: 0;
+          padding: 0;
         }
       }
 
       .desc-col-two {
+        padding: 5%;
         background: $ligher-grey;
         ul {
           margin: 0;
@@ -119,6 +119,18 @@
       }
 
     }
+
+    .imprint {
+      margin-left: 0 !important;
+    }
+
+    .foot-sec-two address {
+      float: none;
+    }
+  }
+
+  .column, .columns {
+    padding: 0 5%;
   }
 }
 

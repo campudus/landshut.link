@@ -52,14 +52,15 @@ $ligher-grey: #f1f1f1;
 
 body {
   font-size: 18px;
-  font-weight:100;
+  font-weight: 100;
 }
 
 body, h1, h2, h3, h4, h5, h6, ul, li, a {
   font-family: "proxima-nova", sans-serif;
 }
-p{
-  font-weight:100;
+
+p {
+  font-weight: 100;
 }
 
 #content.content {
@@ -67,26 +68,26 @@ p{
     max-width: 100%;
 
     .nav-col-one, .nav-col-two {
-      height: 190px;
+      padding: 5% 0;
     }
 
     .nav-col-one svg, .nav-col-two h2 {
-      @include translate(0, -50%);
-      top: 50%;
+      //@include translate(0, -50%);
+      //top: 50%;
     }
 
     .nav-col-one svg {
-      position: absolute;
-      margin-left: 10%;
-      width: 400px;
+      margin-left: 5%;
+      width: 290px;
+      display: block;
     }
 
     .nav-col-two h2 {
       color: $light-grey;
       font-size: 24px;
-      position: absolute;
-      right: 5%;
       font-weight: 600;
+      float: right;
+      margin-right: 10%;
     }
   }
 
@@ -156,8 +157,8 @@ footer {
   height: $footer-height;
   background-color: $ligher-grey;
 
-  .imprint{
-    margin-left:10%;
+  .imprint {
+    margin-left: 10%;
   }
 
   .row {
@@ -188,6 +189,11 @@ footer {
       }
     }
 
+  }
+
+  address {
+    margin-right: 10%;
+    float: right;
   }
 }
 

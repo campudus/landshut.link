@@ -4,24 +4,16 @@
       max-width: 100%;
 
       .nav-col-one, .nav-col-two {
-        height: 190px;
+
       }
 
       .nav-col-one svg, .nav-col-two h2 {
-        @include translate(0, -50%);
-        top: 50%;
-      }
 
-      .nav-col-one svg {
-        position: absolute;
-        left: 5%;
-        width: 300px;
       }
 
       .nav-col-two h2 {
         color: $light-grey;
         font-size: 20px;
-        position: absolute;
         right: 5%;
         font-weight: 600;
       }
@@ -110,14 +102,22 @@
       }
       .foot-sec-two address {
         ul {
-          float: left!important;
+          float: left !important;
           margin-left: 0;
           li {
             line-height: normal;
           }
         }
       }
-
     }
+
+    .imprint {
+      margin-left: 0 !important;
+    }
+
+    .foot-sec-two address {
+      float: none;
+    }
+
   }
 }
