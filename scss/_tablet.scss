@@ -1,0 +1,123 @@
+@media #{$medium-only} {
+  #content.content {
+    header.navigation {
+      max-width: 100%;
+
+      .nav-col-one, .nav-col-two {
+        height: 190px;
+      }
+
+      .nav-col-one svg, .nav-col-two h2 {
+        @include translate(0, -50%);
+        top: 50%;
+      }
+
+      .nav-col-one svg {
+        position: absolute;
+        left: 5%;
+        width: 300px;
+      }
+
+      .nav-col-two h2 {
+        color: $light-grey;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+        font-weight: 600;
+      }
+    }
+
+    .description, .contact {
+      max-width: 100%;
+    }
+
+    .description {
+      .desc-col-one {
+        p {
+          padding: 10% 0 10% 0;
+          width: 100%;
+          position: relative;
+          top: inherit;
+          left: inherit;
+          font-size: 20px;
+          @include translate(0, 0);
+        }
+      }
+
+      .desc-col-two {
+        background: $ligher-grey;
+        ul {
+          margin: 0;
+          padding: 10% 0 10% 0;
+          li {
+            .link {
+              color: $link-green;
+              font-size: 20px;
+            }
+
+            p {
+              margin-top: -10px;
+            }
+          }
+        }
+      }
+    }
+
+    .contact {
+      .con-col-one {
+
+        .con-desc {
+          position: relative;
+          left: inherit;
+          width: 70%;
+          padding: 10% 0 10% 0;
+          @include translate(0, 0);
+
+          p, address p, address a {
+            font-size: 20px;
+          }
+        }
+
+      }
+
+      .con-col-two {
+        iframe {
+          width: 100%;
+          height: 500px;
+        }
+        padding: 0;
+      }
+    }
+
+  }
+
+  footer {
+    .row {
+      .foot-sec-one {
+        padding-top: 20px;
+        a {
+          line-height: normal;
+          padding-left: 0;
+        }
+
+      }
+
+      .foot-sec-one a, .foot-sec-two address ul li {
+        font-size: 20px;
+      }
+      .foot-sec-two address ul li:last-child {
+        white-space: nowrap;
+      }
+      .foot-sec-two address {
+        ul {
+          float: left!important;
+          margin-left: 0;
+          li {
+            line-height: normal;
+          }
+        }
+      }
+
+    }
+  }
+}

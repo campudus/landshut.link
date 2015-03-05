@@ -1,42 +1,111 @@
 <!doctype html>
-<html lang="de">
+<html class="no-js" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>LINK.WORK</title>
-  <style type="text/css">
-    html, body {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    img {
-      height: 200%;
-      max-width: 100%;
-      display: inline;
-      border: 0;
-    }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhysioFlowYoga</title>
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
+  <link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="stylesheets/app.css"/>
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="//use.typekit.net/deu3ywt.js"></script>
+  <script>try {
+    Typekit.load();
+  } catch (e) {
+  }</script>
 </head>
-<body>
+<body class="tk-proxima-nova">
+<div id="content" class="content">
+  <header class="navigation row">
+    <div class="nav-col-one small-12 medium-6 large-6 columns">
+      <svg width="290" height="48">
+        <image xlink:href="img/logo.svg" src="img/logo.png" width="290" height="48" />
+      </svg>
+    </div>
+    <div class="nav-col-two small-12 medium-6 large-6 columns">
+      <h2>Wir sind im Aufbau: Website in Arbeit.</h2>
+    </div>
+  </header>
 
-<img id="linkwork-logo" alt="LINK.WORK" src="concept/img/LINKWORK-LogoHeadline.png" />
+  <article class="description row" data-equalizer>
+    <section class="desc-col-one small-12 medium-12 large-6 columns" data-equalizer-watch>
+      <p>LINKWORK ist ein bunter Mix aus jungen, innovativen Unternehmen und Startups aus Landshut. Jedes Team hat
+        seinen eigenen Schwerpunkt, wodurch alle von einem starken Netzwerk profitieren. Mit den Gemeinschafts-,
+        Meeting- und Eventräumlichkeiten gibt es viele Möglichkeiten für Ideen, Workshops, Co-Working, Tech-Talks und
+        alles was die junge digitale Szene braucht.</p>
+    </section>
+    <section class="desc-col-two small-12 medium-12 large-6 columns" data-equalizer-watch>
+      <ul>
+        <li>
+          <a class="link">BayCIX</a>
 
-<script>
-  var $logo = document.getElementById('link-logo');
-  var scrollDown = Math.round(Math.random());
-  var s = window.innerHeight * scrollDown;
-  window.addEventListener('load', function() {
-    console.log(s);
-    if (s) {
-      document.body.style.backgroundColor = '#404041';
-    } else {
-      document.body.style.backgroundColor = '#ffffff';
-    }
-    window.scrollTo(0, s);
-  });
-</script>
+          <p>IT- & Netzwerk Lösungen</p>
+        </li>
+        <li>
+          <a class="link">Campudus</a>
+
+          <p>Design, Web-& App Entwicklung</p>
+        </li>
+        <li>
+          <a class="link">Nexro</a>
+
+          <p>Software, Web & Hardwarenahe Programmierung</p>
+        </li>
+        <li>
+          <a class="link">Weißarbeit</a>
+
+          <p>3D Art & Motion Design</p>
+        </li>
+        <li>
+          <a class="link">Xpecto</a>
+
+          <p>Softwarelösungen für die Finanzbranche</p>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <article class="contact row" data-equalizer>
+    <section class="con-col-one small-12 medium-12 large-6 columns" data-equalizer-watch>
+      <div class="con-desc">
+        <p>
+          <strong>Wir sind Brandneu.</strong> Seit dem 02.03.2014 sind die Türen des LINKWORK geöffnet. Büroflächen sind
+          noch verfügbar.
+          Bei Interesse wendet euch bitte an:
+        </p>
+        <address>
+          <a href="mailto:matt@example.com">Claudia.Obermaier@landshut.de </a>
+
+          <p>0871 / 88-1406</p>
+        </address>
+      </div>
+    </section>
+    <section class="con-col-two small-12 medium-12 large-6 columns" data-equalizer-watch>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2640.805088470562!2d12.147722900000002!3d48.5561272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e25fe918e93d5%3A0xd2b514e365ddbc36!2sBenzstra%C3%9Fe+13%2C+84030+Landshut!5e0!3m2!1sde!2sde!4v1425481979631"
+        frameborder="0" style="border:0"></iframe>
+    </section>
+  </article>
+
+</div>
+<footer>
+  <article class="row">
+    <section class="foot-sec-one small-12 medium-12 large-6 columns">
+      <a href="impressum.html">Impressum</a>
+    </section>
+    <section class="foot-sec-two small-12 medium-12 large-6 columns">
+      <address>
+        <ul>
+          <li><strong>www.link.work</strong></li>
+          <li>Benzstraße 13, 84030 Landshut</li>
+        </ul>
+      </address>
+    </section>
+  </article>
+</footer>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/Flowtype.js/flowtype.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

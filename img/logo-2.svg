@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="259" height="7" viewBox="0 0 259 7">
+  <defs>
+    <style>
+
+      .cls-2 {
+        font-size: 25.260679px;
+      }
+
+      .cls-4 {
+        fill: #333333;
+        font-family: "ProximaNova-Light";
+        font-size: 25.260679px;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 7) scale(0.4 0.4)"><tspan class="cls-2"><tspan class="cls-4">Landshuter Innovations- </tspan><tspan class="cls-4">und Kompetenzzentrum</tspan></tspan></text>
+</svg>

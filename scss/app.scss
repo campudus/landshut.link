@@ -1,0 +1,186 @@
+@import "settings";
+@import "foundation";
+@import "compass";
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+@import "sticky-footer";
+
+@mixin translate($param1, $param2) {
+  -webkit-transform: translate($param1, $param2);
+  -ms-transform: translate($param1, $param2);
+  transform: translate($param1, $param2);
+}
+
+$light-grey: #d0d0d0;
+$link-green: #63d491;
+$ligher-grey: #f1f1f1;
+
+body {
+  font-size: 18px;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li, a {
+  font-family: "proxima-nova", sans-serif;
+}
+
+#content.content {
+  header.navigation {
+    max-width: 100%;
+
+    .nav-col-one, .nav-col-two {
+      height: 190px;
+    }
+
+    .nav-col-one svg, .nav-col-two h2 {
+      @include translate(0, -50%);
+      top: 50%;
+    }
+
+    .nav-col-one svg {
+      position: absolute;
+      margin-left: 10%;
+      width: 400px;
+    }
+
+    .nav-col-two h2 {
+      color: $light-grey;
+      font-size: 25px;
+      position: absolute;
+      right: 5%;
+      font-weight: 600;
+    }
+  }
+
+  .description, .contact {
+    max-width: 100%;
+  }
+
+  .description {
+    .desc-col-one {
+      background: $link-green;
+      p {
+        color: white;
+        padding: 15% 10% 15% 10%;
+        font-size: 25px;
+      }
+    }
+
+    .desc-col-two {
+      background: $ligher-grey;
+      ul {
+        padding: 10% 0% 10% 30%;
+        li {
+          list-style: none;
+          .link {
+            color: $link-green;
+            font-size: 25px;
+          }
+
+          p {
+            margin-top: -10px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    .con-col-one {
+      .con-desc {
+        padding: 15% 10% 15% 10%;
+
+        address {
+          font-style: normal;
+          a {
+            color: $link-green;
+          }
+        }
+        p, address p, address a {
+          font-size: 25px;
+        }
+      }
+
+    }
+
+    .con-col-two {
+      iframe {
+        width: 100%;
+        height: 500px;
+      }
+      padding: 0;
+    }
+  }
+
+}
+
+footer {
+  height: $footer-height;
+  background-color: $ligher-grey;
+  .row {
+    max-width: 100%;
+    .foot-sec-one {
+      a {
+        line-height: 150px;
+        color: $link-green;
+        padding-left: 5%;
+      }
+
+    }
+
+    .foot-sec-one a, .foot-sec-two address ul li {
+      font-size: 20px;
+    }
+
+    .foot-sec-two address {
+      font-style: normal;
+      ul {
+        float: right;
+        li {
+          list-style: none;
+          display: inline-block;
+          line-height: 130px;
+          padding-right: 20px;
+        }
+      }
+    }
+
+  }
+}
+
+@import 'tablet';
+@import 'mobile';
