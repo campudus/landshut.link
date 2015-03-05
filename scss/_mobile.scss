@@ -4,18 +4,23 @@
       max-width: 100%;
 
       .nav-col-one, .nav-col-two {
-        height: 80px;
+        height: auto;
+        padding-top:20px;
+        padding-bottom:20px;
       }
 
       .nav-col-one svg, .nav-col-two h2 {
         @include translate(0, 0);
         top: inherit;
+        margin:0;
+        padding:0;
       }
 
       .nav-col-one svg {
         position: relative;
         left: 0;
-        width: 250px;
+        width: 290px;
+        margin-left:0;
       }
 
       .nav-col-two h2 {

@@ -52,10 +52,14 @@ $ligher-grey: #f1f1f1;
 
 body {
   font-size: 18px;
+  font-weight:100;
 }
 
 body, h1, h2, h3, h4, h5, h6, ul, li, a {
   font-family: "proxima-nova", sans-serif;
+}
+p{
+  font-weight:100;
 }
 
 #content.content {
@@ -79,7 +83,7 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
 
     .nav-col-two h2 {
       color: $light-grey;
-      font-size: 25px;
+      font-size: 24px;
       position: absolute;
       right: 5%;
       font-weight: 600;
@@ -96,7 +100,7 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
       p {
         color: white;
         padding: 15% 10% 15% 10%;
-        font-size: 25px;
+        font-size: 24px;
       }
     }
 
@@ -108,7 +112,7 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
           list-style: none;
           .link {
             color: $link-green;
-            font-size: 25px;
+            font-size: 24px;
           }
 
           p {
@@ -131,7 +135,7 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
           }
         }
         p, address p, address a {
-          font-size: 25px;
+          font-size: 24px;
         }
       }
 
@@ -151,13 +155,17 @@ body, h1, h2, h3, h4, h5, h6, ul, li, a {
 footer {
   height: $footer-height;
   background-color: $ligher-grey;
+
+  .imprint{
+    margin-left:10%;
+  }
+
   .row {
     max-width: 100%;
     .foot-sec-one {
       a {
         line-height: 150px;
         color: $link-green;
-        padding-left: 5%;
       }
 
     }
