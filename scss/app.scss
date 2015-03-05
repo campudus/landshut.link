@@ -56,11 +56,11 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6, ul, li, a {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #content.content {
@@ -68,7 +68,8 @@ p {
     max-width: 100%;
 
     .nav-col-one, .nav-col-two {
-      padding: 5% 0;
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 
     .nav-col-one svg, .nav-col-two h2 {
@@ -77,7 +78,7 @@ p {
     }
 
     .nav-col-one svg {
-      margin-left: 5%;
+      margin-left: 10%;
       width: 290px;
       display: block;
     }
@@ -85,7 +86,7 @@ p {
     .nav-col-two h2 {
       color: $light-grey;
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 500;
       float: right;
       margin-right: 10%;
     }
