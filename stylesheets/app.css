@@ -9304,12 +9304,13 @@ footer .row .foot-sec-two address {
 /* line 171, ../scss/app.scss */
 footer .row .foot-sec-two address ul {
   float: right;
+  margin-bottom: 0;
 }
-/* line 173, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 footer .row .foot-sec-two address ul li {
   list-style: none;
   display: inline-block;
-  line-height: 130px;
+  line-height: 150px;
   padding-right: 20px;
 }
 

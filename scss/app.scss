@@ -170,10 +170,11 @@ footer {
       font-style: normal;
       ul {
         float: right;
+        margin-bottom: 0;
         li {
           list-style: none;
           display: inline-block;
-          line-height: 130px;
+          line-height: 150px;
           padding-right: 20px;
         }
       }
