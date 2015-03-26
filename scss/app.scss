@@ -83,14 +83,26 @@ h3.space-top {
   font-size: 16px;
 }
 
+h3 a.small{
+  font-weight:400;
+}
+
 .la-logo {
   padding-top: 10px;
 }
 
 section {
+  a, a:visited {
+    color: $link-green;
+    text-decoration: none;
+  }
   ul, p {
     font-size: 24px;
   }
+}
+
+a:hover, a:focus{
+  color: #222222 !important;
 }
 
 .no-margin {
@@ -98,8 +110,8 @@ section {
 }
 
 //Design Guidelines
-.colorValues{
-  padding:5%;
+.colorValues {
+  padding: 5%;
   list-style: none;
 }
 
