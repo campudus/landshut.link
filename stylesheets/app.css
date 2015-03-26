@@ -9179,42 +9179,74 @@ footer, .wrapper:after {
 }
 
 /* line 53, ../scss/app.scss */
-body {
+body, ul {
   font-size: 18px;
   font-weight: 100;
 }
 
 /* line 58, ../scss/app.scss */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* line 63, ../scss/app.scss */
 body, h1, h2, h3, h4, h5, h6, ul, li, a {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 62, ../scss/app.scss */
-p {
+/* line 67, ../scss/app.scss */
+p, ul, li {
   font-weight: 300;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
+address a, address img {
+  display: block;
+}
+
+/* line 77, ../scss/app.scss */
+h3.space-top {
+  margin-top: 1em;
+}
+
+/* line 81, ../scss/app.scss */
+.small {
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* line 86, ../scss/app.scss */
+.la-logo {
+  padding-top: 10px;
+}
+
+/* line 91, ../scss/app.scss */
+section ul, section p {
+  font-size: 24px;
+}
+
+/* line 96, ../scss/app.scss */
 .no-margin {
   margin: 0;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 #content.content header.navigation {
   max-width: 100%;
 }
-/* line 74, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 #content.content header.navigation .nav-col-one, #content.content header.navigation .nav-col-two {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/* line 84, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 #content.content header.navigation .nav-col-one svg {
   margin-left: 10%;
   width: 290px;
   display: block;
 }
-/* line 90, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 #content.content header.navigation .nav-col-two h2 {
   color: #d0d0d0;
   font-size: 24px;
@@ -9222,106 +9254,105 @@ p {
   float: right;
   margin-right: 10%;
 }
-/* line 99, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 #content.content .description, #content.content .contact {
   max-width: 100%;
 }
-/* line 104, ../scss/app.scss */
+/* line 134, ../scss/app.scss */
 #content.content .description .desc-col-one {
   background: #63d491;
 }
-/* line 106, ../scss/app.scss */
+/* line 136, ../scss/app.scss */
 #content.content .description .desc-col-one p {
   color: white;
   padding: 15% 10% 15% 10%;
-  font-size: 24px;
 }
-/* line 113, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 #content.content .description .desc-col-two {
   background: #f1f1f1;
 }
-/* line 115, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 #content.content .description .desc-col-two ul {
   padding: 10% 0% 10% 30%;
 }
-/* line 117, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 #content.content .description .desc-col-two ul li {
   list-style: none;
 }
-/* line 119, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 #content.content .description .desc-col-two ul li .link {
   color: #63d491;
-  font-size: 24px;
 }
-/* line 124, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 #content.content .description .desc-col-two ul li p {
   margin-top: -10px;
+  font-size: 16px;
 }
-/* line 134, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc {
   padding: 15% 10% 15% 10%;
 }
-/* line 137, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc address {
   font-style: normal;
 }
-/* line 139, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc address a {
   color: #63d491;
 }
-/* line 143, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc p, #content.content .contact .con-col-one .con-desc address p, #content.content .contact .con-col-one .con-desc address a {
   font-size: 24px;
 }
-/* line 150, ../scss/app.scss */
+/* line 178, ../scss/app.scss */
 #content.content .contact .con-col-two {
   padding: 0;
 }
-/* line 151, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 #content.content .contact .con-col-two iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 161, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 footer {
   height: 150px;
   background-color: #f1f1f1;
 }
-/* line 165, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 footer .imprint {
   margin-left: 10%;
 }
-/* line 169, ../scss/app.scss */
+/* line 197, ../scss/app.scss */
 footer .row {
   max-width: 100%;
 }
-/* line 172, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 footer .row .foot-sec-one a {
   line-height: 150px;
   color: #63d491;
 }
-/* line 179, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 footer .row .foot-sec-one a, footer .row .foot-sec-two address ul li {
   font-size: 20px;
 }
-/* line 183, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 footer .row .foot-sec-two address {
   font-style: normal;
 }
-/* line 185, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 footer .row .foot-sec-two address ul {
   float: right;
   margin-bottom: 0;
 }
-/* line 188, ../scss/app.scss */
+/* line 216, ../scss/app.scss */
 footer .row .foot-sec-two address ul li {
   list-style: none;
   display: inline-block;
   line-height: 150px;
   padding-right: 20px;
 }
-/* line 199, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
 footer address {
   margin-right: 10%;
   float: right;
@@ -9434,26 +9465,31 @@ footer address {
 }
 @media only screen and (max-width: 40em) {
   /* line 3, ../scss/_mobile.scss */
+  section ul, section p {
+    font-size: 16px;
+  }
+
+  /* line 8, ../scss/_mobile.scss */
   #content.content header.navigation {
     max-width: 100%;
   }
-  /* line 6, ../scss/_mobile.scss */
+  /* line 11, ../scss/_mobile.scss */
   #content.content header.navigation .nav-col-one, #content.content header.navigation .nav-col-two {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  /* line 12, ../scss/_mobile.scss */
+  /* line 17, ../scss/_mobile.scss */
   #content.content header.navigation .nav-col-one svg, #content.content header.navigation .nav-col-two h2 {
     margin: 0;
     padding: 0;
   }
-  /* line 17, ../scss/_mobile.scss */
+  /* line 22, ../scss/_mobile.scss */
   #content.content header.navigation .nav-col-one svg {
     left: 5%;
     position: relative;
   }
-  /* line 22, ../scss/_mobile.scss */
+  /* line 27, ../scss/_mobile.scss */
   #content.content header.navigation .nav-col-two h2 {
     color: #d0d0d0;
     font-size: 20px;
@@ -9461,15 +9497,15 @@ footer address {
     position: relative;
     margin-left: 5%;
   }
-  /* line 31, ../scss/_mobile.scss */
+  /* line 36, ../scss/_mobile.scss */
   #content.content .description, #content.content .contact {
     max-width: 100%;
   }
-  /* line 36, ../scss/_mobile.scss */
+  /* line 41, ../scss/_mobile.scss */
   #content.content .description .desc-col-one {
     padding: 5%;
   }
-  /* line 39, ../scss/_mobile.scss */
+  /* line 44, ../scss/_mobile.scss */
   #content.content .description .desc-col-one p {
     width: 100%;
     position: static;
@@ -9482,22 +9518,22 @@ footer address {
     margin: 0;
     padding: 0;
   }
-  /* line 51, ../scss/_mobile.scss */
+  /* line 56, ../scss/_mobile.scss */
   #content.content .description .desc-col-two {
     padding: 5%;
     background: #f1f1f1;
   }
-  /* line 54, ../scss/_mobile.scss */
+  /* line 59, ../scss/_mobile.scss */
   #content.content .description .desc-col-two ul {
     margin: 0;
     padding: 5% 0% 5% 0;
   }
-  /* line 58, ../scss/_mobile.scss */
+  /* line 63, ../scss/_mobile.scss */
   #content.content .description .desc-col-two ul li .link {
     color: #63d491;
     font-size: 20px;
   }
-  /* line 71, ../scss/_mobile.scss */
+  /* line 76, ../scss/_mobile.scss */
   #content.content .contact .con-col-one .con-desc {
     position: relative;
     left: inherit;
@@ -9507,54 +9543,54 @@ footer address {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-  /* line 78, ../scss/_mobile.scss */
+  /* line 83, ../scss/_mobile.scss */
   #content.content .contact .con-col-one .con-desc p, #content.content .contact .con-col-one .con-desc address p, #content.content .contact .con-col-one .con-desc address a {
     font-size: 16px;
   }
-  /* line 85, ../scss/_mobile.scss */
+  /* line 90, ../scss/_mobile.scss */
   #content.content .contact .con-col-two {
     padding: 0;
   }
-  /* line 86, ../scss/_mobile.scss */
+  /* line 91, ../scss/_mobile.scss */
   #content.content .contact .con-col-two iframe {
     width: 100%;
     height: 300px;
   }
 
-  /* line 98, ../scss/_mobile.scss */
+  /* line 103, ../scss/_mobile.scss */
   footer .row .foot-sec-one {
     padding-top: 20px;
   }
-  /* line 101, ../scss/_mobile.scss */
+  /* line 106, ../scss/_mobile.scss */
   footer .row .foot-sec-one a {
     line-height: normal;
     padding-left: 0;
   }
-  /* line 106, ../scss/_mobile.scss */
+  /* line 111, ../scss/_mobile.scss */
   footer .row .foot-sec-one .foot-sec-one a, footer .row .foot-sec-one .foot-sec-two address ul li {
     font-size: 20px;
   }
-  /* line 111, ../scss/_mobile.scss */
+  /* line 116, ../scss/_mobile.scss */
   footer .row .foot-sec-two address ul {
     margin-left: 0;
     float: left !important;
   }
-  /* line 114, ../scss/_mobile.scss */
+  /* line 119, ../scss/_mobile.scss */
   footer .row .foot-sec-two address ul li {
     display: inline-block;
     line-height: normal;
   }
-  /* line 123, ../scss/_mobile.scss */
+  /* line 128, ../scss/_mobile.scss */
   footer .imprint {
     margin-left: 0 !important;
   }
-  /* line 127, ../scss/_mobile.scss */
+  /* line 132, ../scss/_mobile.scss */
   footer .foot-sec-two address {
     float: none;
   }
 
-  /* line 132, ../scss/_mobile.scss */
+  /* line 137, ../scss/_mobile.scss */
   .column, .columns {
-    padding: 0 5%;
+    padding: 0 5% 10% 5%;
   }
 }

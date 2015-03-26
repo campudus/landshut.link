@@ -50,20 +50,51 @@ $light-grey: #d0d0d0;
 $link-green: #63d491;
 $ligher-grey: #f1f1f1;
 
-body {
+body, ul {
   font-size: 18px;
   font-weight: 100;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 body, h1, h2, h3, h4, h5, h6, ul, li, a {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-p {
+p, ul, li {
   font-weight: 300;
 }
-.no-margin{
-  margin:0;
+
+address {
+  a, img {
+    display: block;
+  }
+}
+
+h3.space-top {
+  margin-top: 1em;
+}
+
+.small {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.la-logo {
+  padding-top: 10px;
+}
+
+section {
+  ul, p {
+    font-size: 24px;
+  }
+}
+
+.no-margin {
+  margin: 0;
 }
 
 #content.content {
@@ -105,7 +136,6 @@ p {
       p {
         color: white;
         padding: 15% 10% 15% 10%;
-        font-size: 24px;
       }
     }
 
@@ -117,11 +147,10 @@ p {
           list-style: none;
           .link {
             color: $link-green;
-            font-size: 24px;
           }
-
           p {
             margin-top: -10px;
+            font-size: 16px;
           }
         }
       }
