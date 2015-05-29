@@ -9318,7 +9318,7 @@ a:hover, a:focus {
 }
 /* line 186, ../scss/app.scss */
 #content.content .description .desc-col-two ul {
-  padding: 10% 0% 10% 30%;
+  padding: 15% 0% 10% 20%;
 }
 /* line 188, ../scss/app.scss */
 #content.content .description .desc-col-two ul li {
@@ -9448,22 +9448,23 @@ button:hover, button:focus, .button:hover, .button:focus {
   /* line 45, ../scss/_tablet.scss */
   #content.content .description .desc-col-two {
     background: #f1f1f1;
+    padding: 10%;
   }
-  /* line 47, ../scss/_tablet.scss */
+  /* line 48, ../scss/_tablet.scss */
   #content.content .description .desc-col-two ul {
     margin: 0;
-    padding: 10% 0 10% 0;
+    padding: 0;
   }
-  /* line 51, ../scss/_tablet.scss */
+  /* line 52, ../scss/_tablet.scss */
   #content.content .description .desc-col-two ul li .link {
     color: #63d491;
     font-size: 20px;
   }
-  /* line 56, ../scss/_tablet.scss */
+  /* line 57, ../scss/_tablet.scss */
   #content.content .description .desc-col-two ul li p {
     margin-top: -10px;
   }
-  /* line 67, ../scss/_tablet.scss */
+  /* line 68, ../scss/_tablet.scss */
   #content.content .contact .con-col-one .con-desc {
     position: relative;
     left: inherit;
@@ -9473,51 +9474,51 @@ button:hover, button:focus, .button:hover, .button:focus {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-  /* line 74, ../scss/_tablet.scss */
+  /* line 75, ../scss/_tablet.scss */
   #content.content .contact .con-col-one .con-desc p, #content.content .contact .con-col-one .con-desc address p, #content.content .contact .con-col-one .con-desc address a {
     font-size: 20px;
   }
-  /* line 81, ../scss/_tablet.scss */
+  /* line 82, ../scss/_tablet.scss */
   #content.content .contact .con-col-two {
     padding: 0;
   }
-  /* line 82, ../scss/_tablet.scss */
+  /* line 83, ../scss/_tablet.scss */
   #content.content .contact .con-col-two iframe {
     width: 100%;
     height: 500px;
   }
 
-  /* line 94, ../scss/_tablet.scss */
+  /* line 95, ../scss/_tablet.scss */
   footer .row .foot-sec-one {
     padding-top: 20px;
   }
-  /* line 96, ../scss/_tablet.scss */
+  /* line 97, ../scss/_tablet.scss */
   footer .row .foot-sec-one a {
     line-height: normal;
     padding-left: 0;
   }
-  /* line 103, ../scss/_tablet.scss */
+  /* line 104, ../scss/_tablet.scss */
   footer .row .foot-sec-one a, footer .row .foot-sec-two address ul li {
     font-size: 20px;
   }
-  /* line 106, ../scss/_tablet.scss */
+  /* line 107, ../scss/_tablet.scss */
   footer .row .foot-sec-two address ul li:last-child {
     white-space: nowrap;
   }
-  /* line 110, ../scss/_tablet.scss */
+  /* line 111, ../scss/_tablet.scss */
   footer .row .foot-sec-two address ul {
     float: left !important;
     margin-left: 0;
   }
-  /* line 113, ../scss/_tablet.scss */
+  /* line 114, ../scss/_tablet.scss */
   footer .row .foot-sec-two address ul li {
     line-height: normal;
   }
-  /* line 120, ../scss/_tablet.scss */
+  /* line 121, ../scss/_tablet.scss */
   footer .imprint {
     margin-left: 0 !important;
   }
-  /* line 124, ../scss/_tablet.scss */
+  /* line 125, ../scss/_tablet.scss */
   footer .foot-sec-two address {
     float: none;
   }

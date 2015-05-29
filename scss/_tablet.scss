@@ -44,9 +44,10 @@
 
       .desc-col-two {
         background: $ligher-grey;
+        padding: 10%;
         ul {
           margin: 0;
-          padding: 10% 0 10% 0;
+          padding: 0;
           li {
             .link {
               color: $link-green;
