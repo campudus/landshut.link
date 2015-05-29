@@ -25,14 +25,20 @@
 
     .description {
       .desc-col-one {
+        padding: 10%;
         p {
-          padding: 10% 0 10% 0;
+          padding-bottom: 10%;
           width: 100%;
           position: relative;
           top: inherit;
           left: inherit;
           font-size: 20px;
+          margin: 0;
           @include translate(0, 0);
+        }
+
+        .gallery {
+          margin: 0;
         }
       }
 

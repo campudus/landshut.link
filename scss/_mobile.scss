@@ -39,7 +39,7 @@
 
     .description {
       .desc-col-one {
-        padding: 5%;
+        padding: 10% 5%;
 
         p {
           width: 100%;
@@ -49,8 +49,19 @@
           font-size: 16px;
           @include translate(0, 0);
           margin: 0;
+          padding-bottom: 10%;
+        }
+
+        div {
+          width: 100%;
+          margin: 0;
           padding: 0;
         }
+
+        .gallery {
+          margin-bottom: 0;
+        }
+
       }
 
       .desc-col-two {
@@ -99,6 +110,7 @@
   }
 
   footer {
+    height: auto;
     .row {
       .foot-sec-one {
         padding-top: 20px;
