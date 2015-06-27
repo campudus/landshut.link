@@ -276,5 +276,26 @@ button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;
 }
 
+
+#imprint{
+
+  margin-left:inherit;
+
+  p{
+    font-size:1rem;
+  }
+
+  h1,h2,h3,h4,h5{
+    font-weight:bold;
+  }
+
+  h3{
+    font-size:1.5rem;
+  }
+  h4{
+    font-size:1rem;
+  }
+}
+
 @import 'tablet';
 @import 'mobile';

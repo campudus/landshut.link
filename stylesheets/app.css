@@ -9408,6 +9408,27 @@ button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;
 }
 
+/* line 280, ../scss/app.scss */
+#imprint {
+  margin-left: inherit;
+}
+/* line 284, ../scss/app.scss */
+#imprint p {
+  font-size: 1rem;
+}
+/* line 288, ../scss/app.scss */
+#imprint h1, #imprint h2, #imprint h3, #imprint h4, #imprint h5 {
+  font-weight: bold;
+}
+/* line 292, ../scss/app.scss */
+#imprint h3 {
+  font-size: 1.5rem;
+}
+/* line 295, ../scss/app.scss */
+#imprint h4 {
+  font-size: 1rem;
+}
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 3, ../scss/_tablet.scss */
   #content.content header.navigation {
