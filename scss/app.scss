@@ -163,16 +163,16 @@ a:hover, a:focus {
         }
       }
 
-      .gallery{
-        margin-top:0;
-        margin-bottom:15%;
-        padding:0;
+      .gallery {
+        margin-top: 0;
+        margin-bottom: 15%;
+        padding: 0;
         a {
           color: white;
           border: solid 2px white;
           padding: 2% 5%;
           font-weight: 300;
-          display:inline-block;
+          display: inline-block;
         }
         a:hover {
           color: white !important;
@@ -236,6 +236,10 @@ footer {
     margin-left: 10%;
   }
 
+  .meetup {
+    margin-left: 4%;
+  }
+
   .row {
     max-width: 100%;
     .foot-sec-one {
@@ -276,24 +280,23 @@ button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;
 }
 
+#imprint {
 
-#imprint{
+  margin-left: inherit;
 
-  margin-left:inherit;
-
-  p{
-    font-size:1rem;
+  p {
+    font-size: 1rem;
   }
 
-  h1,h2,h3,h4,h5{
-    font-weight:bold;
+  h1, h2, h3, h4, h5 {
+    font-weight: bold;
   }
 
-  h3{
-    font-size:1.5rem;
+  h3 {
+    font-size: 1.5rem;
   }
-  h4{
-    font-size:1rem;
+  h4 {
+    font-size: 1rem;
   }
 }
 

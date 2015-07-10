@@ -15,6 +15,18 @@ $(document).ready(function () {
   $('.gallery').magnificPopup({
     items : [
       {
+        src : "img/gallery/linkwork-landshut12.jpg"
+      },
+      {
+        src : "img/gallery/linkwork-landshut9.jpg"
+      },
+      {
+        src : "img/gallery/linkwork-landshut11.jpg"
+      },
+      {
+        src : "img/gallery/linkwork-landshut7.jpg"
+      },
+      {
         src : "img/gallery/linkwork-landshut1.jpg"
       },
       {
@@ -33,10 +45,15 @@ $(document).ready(function () {
         src : "img/gallery/linkwork-landshut6.jpg"
       },
       {
-        src : "img/gallery/linkwork-landshut7.jpg"
-      },
-      {
         src : "img/gallery/linkwork-landshut8.jpg"
+      },
+
+      {
+        src : "img/gallery/linkwork-landshut10.jpg"
+      },
+
+      {
+        src : "img/gallery/linkwork-landshut13.jpg"
       }
     ],
     gallery : {
