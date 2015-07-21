@@ -9359,76 +9359,119 @@ a:hover, a:focus {
   height: 100%;
 }
 
-/* line 231, ../scss/app.scss */
+/* line 233, ../scss/app.scss */
+#agb ol.paragraph {
+  list-style-type: none;
+}
+
+/* line 239, ../scss/app.scss */
+.mfp-wrap {
+  overflow: hidden;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 80%;
+}
+
+/* line 248, ../scss/app.scss */
+.mfp-content {
+  overflow: auto;
+  height: 100%;
+}
+
+/* line 253, ../scss/app.scss */
+#contact-form-popup {
+  background-color: white;
+  padding: 40px;
+}
+/* line 257, ../scss/app.scss */
+#contact-form-popup textarea {
+  height: 200px;
+}
+/* line 261, ../scss/app.scss */
+#contact-form-popup button:hover {
+  background-color: #63d491;
+}
+/* line 265, ../scss/app.scss */
+#contact-form-popup .field {
+  margin-top: 20px;
+}
+/* line 269, ../scss/app.scss */
+#contact-form-popup .field.error {
+  color: #ff6868;
+}
+
+/* line 274, ../scss/app.scss */
 footer {
   height: 150px;
   background-color: #f1f1f1;
 }
-/* line 235, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 footer .imprint {
   margin-left: 10%;
 }
-/* line 239, ../scss/app.scss */
+/* line 282, ../scss/app.scss */
 footer .meetup {
   margin-left: 4%;
 }
-/* line 243, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 footer .row {
   max-width: 100%;
 }
-/* line 246, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 footer .row .foot-sec-one a {
   line-height: 150px;
   color: #63d491;
 }
-/* line 253, ../scss/app.scss */
+/* line 296, ../scss/app.scss */
 footer .row .foot-sec-one a, footer .row .foot-sec-two address ul li {
   font-size: 20px;
 }
-/* line 257, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 footer .row .foot-sec-two address {
   font-style: normal;
 }
-/* line 259, ../scss/app.scss */
+/* line 302, ../scss/app.scss */
 footer .row .foot-sec-two address ul {
   float: right;
   margin-bottom: 0;
 }
-/* line 262, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 footer .row .foot-sec-two address ul li {
   list-style: none;
   display: inline-block;
   line-height: 150px;
   padding-right: 20px;
 }
-/* line 273, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 footer address {
   margin-right: 10%;
   float: right;
 }
 
-/* line 279, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;
 }
 
-/* line 283, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
 #imprint {
   margin-left: inherit;
 }
-/* line 287, ../scss/app.scss */
+/* line 330, ../scss/app.scss */
 #imprint p {
   font-size: 1rem;
 }
-/* line 291, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
 #imprint h1, #imprint h2, #imprint h3, #imprint h4, #imprint h5 {
   font-weight: bold;
 }
-/* line 295, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 #imprint h3 {
   font-size: 1.5rem;
 }
-/* line 298, ../scss/app.scss */
+/* line 341, ../scss/app.scss */
 #imprint h4 {
   font-size: 1rem;
 }
@@ -9546,6 +9589,16 @@ button:hover, button:focus, .button:hover, .button:focus {
   /* line 125, ../scss/_tablet.scss */
   footer .foot-sec-two address {
     float: none;
+  }
+
+  /* line 131, ../scss/_tablet.scss */
+  .mfp-wrap {
+    overflow: hidden;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
   }
 }
 @media only screen and (max-width: 40em) {
@@ -9691,5 +9744,15 @@ button:hover, button:focus, .button:hover, .button:focus {
   /* line 149, ../scss/_mobile.scss */
   .column, .columns {
     padding: 0 5% 10% 5%;
+  }
+
+  /* line 153, ../scss/_mobile.scss */
+  .mfp-wrap {
+    overflow: hidden;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 96%;
   }
 }

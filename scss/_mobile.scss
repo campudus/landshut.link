@@ -149,5 +149,15 @@
   .column, .columns {
     padding: 0 5% 10% 5%;
   }
+
+  .mfp-wrap {
+    overflow: hidden;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 96%;
+  }
+
 }
 
