@@ -228,6 +228,49 @@ a:hover, a:focus {
 
 }
 
+#agb {
+
+  ol.paragraph {
+    list-style-type: none;
+  }
+
+}
+
+.mfp-wrap {
+  overflow: hidden;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 80%;
+}
+
+.mfp-content {
+  overflow: auto;
+  height: 100%;
+}
+
+#contact-form-popup {
+  background-color: white;
+  padding: 40px;
+
+  textarea {
+    height: 200px;
+  }
+
+  button:hover {
+    background-color: $link-green;
+  }
+
+  .field {
+    margin-top: 20px;
+  }
+
+  .field.error {
+    color: #ff6868;
+  }
+}
+
 footer {
   height: $footer-height;
   background-color: $ligher-grey;
