@@ -108,6 +108,8 @@ function createContactForm() {
 function createGallery() {
   $('.gallery').magnificPopup({
     items : [
+      {src : "img/gallery/Meetup.jpg"},
+      {src : "img/gallery/Coworking.jpg"},
       {src : "img/gallery/linkwork-landshut12.jpg"},
       {src : "img/gallery/linkwork-landshut9.jpg"},
       {src : "img/gallery/linkwork-landshut11.jpg"},
@@ -120,7 +122,8 @@ function createGallery() {
       {src : "img/gallery/linkwork-landshut6.jpg"},
       {src : "img/gallery/linkwork-landshut8.jpg"},
       {src : "img/gallery/linkwork-landshut10.jpg"},
-      {src : "img/gallery/linkwork-landshut13.jpg"}
+      {src : "img/gallery/linkwork-landshut13.jpg"},
+      {src : "img/gallery/Meeting.jpg"}
     ],
     gallery : {
       enabled : true
