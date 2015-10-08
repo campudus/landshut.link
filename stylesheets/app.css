@@ -9295,76 +9295,89 @@ a:hover, a:focus {
   border-bottom: solid 2px;
 }
 /* line 166, ../scss/app.scss */
-#content.content .description .desc-col-one .gallery {
+#content.content .description .desc-col-one .gallery-wrapper {
   margin-top: 0;
   margin-bottom: 15%;
   padding: 0;
 }
-/* line 170, ../scss/app.scss */
-#content.content .description .desc-col-one .gallery a {
+/* line 171, ../scss/app.scss */
+#content.content .description .desc-col-one .gallery-wrapper a {
   color: white;
   border: solid 2px white;
   padding: 2% 5%;
   font-weight: 300;
   display: inline-block;
 }
-/* line 177, ../scss/app.scss */
-#content.content .description .desc-col-one .gallery a:hover {
+/* line 178, ../scss/app.scss */
+#content.content .description .desc-col-one .gallery-wrapper a.gallery {
+  margin-right: 10px;
+}
+/* line 182, ../scss/app.scss */
+#content.content .description .desc-col-one .gallery-wrapper a.rundgang {
+  background-color: #fff;
+  color: #63d491;
+}
+/* line 185, ../scss/app.scss */
+#content.content .description .desc-col-one .gallery-wrapper a.rundgang:hover {
+  color: #63d491 !important;
+}
+/* line 192, ../scss/app.scss */
+#content.content .description .desc-col-one .gallery-wrapper a.gallery:hover {
   color: white !important;
 }
-/* line 184, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 #content.content .description .desc-col-two {
   background: #f1f1f1;
 }
-/* line 186, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 #content.content .description .desc-col-two ul {
   padding: 15% 0% 10% 20%;
 }
-/* line 188, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 #content.content .description .desc-col-two ul li {
   list-style: none;
 }
-/* line 190, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 #content.content .description .desc-col-two ul li .link {
   color: #63d491;
 }
-/* line 193, ../scss/app.scss */
+/* line 209, ../scss/app.scss */
 #content.content .description .desc-col-two ul li p {
   margin-top: -10px;
   font-size: 16px;
 }
-/* line 204, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc {
   padding: 15% 10% 15% 10%;
 }
-/* line 207, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc address {
   font-style: normal;
 }
-/* line 209, ../scss/app.scss */
+/* line 225, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc address a {
   color: #63d491;
 }
-/* line 213, ../scss/app.scss */
+/* line 229, ../scss/app.scss */
 #content.content .contact .con-col-one .con-desc p, #content.content .contact .con-col-one .con-desc address p, #content.content .contact .con-col-one .con-desc address a {
   font-size: 24px;
 }
-/* line 220, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 #content.content .contact .con-col-two {
   padding: 0;
 }
-/* line 221, ../scss/app.scss */
+/* line 237, ../scss/app.scss */
 #content.content .contact .con-col-two iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 233, ../scss/app.scss */
+/* line 249, ../scss/app.scss */
 #agb ol.paragraph {
   list-style-type: none;
 }
 
-/* line 239, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 #contact-form-popup {
   background-color: white;
   padding: 40px;
@@ -9372,93 +9385,93 @@ a:hover, a:focus {
   max-width: 600px;
   margin: 0 auto;
 }
-/* line 246, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 #contact-form-popup textarea {
   height: 200px;
 }
-/* line 250, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 #contact-form-popup button:hover {
   background-color: #63d491;
 }
-/* line 254, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #contact-form-popup .field {
   margin-top: 20px;
 }
-/* line 258, ../scss/app.scss */
+/* line 274, ../scss/app.scss */
 #contact-form-popup .field.error {
   color: #ff6868;
 }
 
-/* line 263, ../scss/app.scss */
+/* line 279, ../scss/app.scss */
 footer {
   height: 150px;
   background-color: #f1f1f1;
 }
-/* line 267, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 footer .imprint {
   margin-left: 10%;
 }
-/* line 271, ../scss/app.scss */
+/* line 287, ../scss/app.scss */
 footer .meetup {
   margin-left: 4%;
 }
-/* line 275, ../scss/app.scss */
+/* line 291, ../scss/app.scss */
 footer .row {
   max-width: 100%;
 }
-/* line 278, ../scss/app.scss */
+/* line 294, ../scss/app.scss */
 footer .row .foot-sec-one a {
   line-height: 150px;
   color: #63d491;
 }
-/* line 285, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 footer .row .foot-sec-one a, footer .row .foot-sec-two address ul li {
   font-size: 20px;
 }
-/* line 289, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 footer .row .foot-sec-two address {
   font-style: normal;
 }
-/* line 291, ../scss/app.scss */
+/* line 307, ../scss/app.scss */
 footer .row .foot-sec-two address ul {
   float: right;
   margin-bottom: 0;
 }
-/* line 294, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 footer .row .foot-sec-two address ul li {
   list-style: none;
   display: inline-block;
   line-height: 150px;
   padding-right: 20px;
 }
-/* line 305, ../scss/app.scss */
+/* line 321, ../scss/app.scss */
 footer address {
   margin-right: 10%;
   float: right;
 }
 
-/* line 311, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;
 }
 
-/* line 315, ../scss/app.scss */
+/* line 331, ../scss/app.scss */
 #imprint {
   margin-left: inherit;
 }
-/* line 319, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 #imprint p {
   font-size: 1rem;
 }
-/* line 323, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 #imprint h1, #imprint h2, #imprint h3, #imprint h4, #imprint h5 {
   font-weight: bold;
 }
-/* line 327, ../scss/app.scss */
+/* line 343, ../scss/app.scss */
 #imprint h3 {
   font-size: 1.5rem;
 }
-/* line 330, ../scss/app.scss */
+/* line 346, ../scss/app.scss */
 #imprint h4 {
   font-size: 1rem;
 }
