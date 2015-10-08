@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[LINK.WORK]]></data>
+  <data name="en_project_author_name"><![CDATA[kleinwelt Panographie - Michael Domaradzki]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.kleinwelt.de]]></data>
+
+
+  <data name="en_panogroup12_title"><![CDATA[EG]]></data>
+
+  <data name="en_pano9_title"><![CDATA[Eingang]]></data>
+  <data name="en_spotpolygon613_tooltip"><![CDATA[Raum (24m²) zu vermieten]]></data>
+  <data name="en_spotpolygon614_tooltip"><![CDATA[Raum (24m²) zu vermieten]]></data>
+  <data name="en_spotpolygon615_tooltip"><![CDATA[Raum (32m²) zu vermieten]]></data>
+  <data name="en_spotpolygon616_tooltip"><![CDATA[Raum (36m²) zu vermieten]]></data>
+  <data name="en_pano11_title"><![CDATA[Eingangs / Eventbereich]]></data>
+  <data name="en_pano13_title"><![CDATA[Eventbereich]]></data>
+  <data name="en_pano17_title"><![CDATA[Küche im Eventbereich]]></data>
+  <data name="en_pano15_title"><![CDATA[Besprechungsraum]]></data>
+  <data name="en_pano20_title"><![CDATA[Eingsbereich oben]]></data>
+  <data name="en_spotpoint47_tooltip"><![CDATA[Eingangsbereich]]></data>
+  <data name="en_spotpoint48_tooltip"><![CDATA[Treppenhaus]]></data>
+  <data name="en_spotpoint50_tooltip"><![CDATA[Gang]]></data>
+  <data name="en_spotpolygon857_tooltip"><![CDATA[Raum (24m²) zu vermieten]]></data>
+  <data name="en_spotpolygon858_tooltip"><![CDATA[Raum (36m²) zu vermieten]]></data>
+  <data name="en_spotpolygon859_tooltip"><![CDATA[Raum (24m²) zu vermieten]]></data>
+  <data name="en_spotpolygon860_tooltip"><![CDATA[Raum (32m²) zu vermieten]]></data>
+  <data name="en_spotpoint863_tooltip"><![CDATA[Meetingraum]]></data>
+  <data name="en_spotpoint864_tooltip"><![CDATA[Eventbereich]]></data>
+  <data name="en_spotpoint866_tooltip"><![CDATA[Raum (36m²) zu vermieten]]></data>
+  <data name="en_pano22_title"><![CDATA[Gang vorne]]></data>
+  <data name="en_pano30_title"><![CDATA[Gang hinten]]></data>
+  <data name="en_pano26_title"><![CDATA[Raum 106 (zu vermieten, 24m²)]]></data>
+  <data name="en_pano28_title"><![CDATA[Raum 110 (zu vermieten, 36m²)]]></data>
+  <data name="en_pano32_title"><![CDATA[Raum 107 (zu vermieten, 24m²)]]></data>
+  <data name="en_pano34_title"><![CDATA[Raum 109 (zu vermieten, 32m²)]]></data>
+  <data name="en_pano24_title"><![CDATA[Treppenhaus EG]]></data>
+
+  <data name="en_panogroup252_title"><![CDATA[1. OG]]></data>
+
+  <data name="en_pano251_title"><![CDATA[Treppenhaus]]></data>
+  <data name="en_pano253_title"><![CDATA[Gang links]]></data>
+  <data name="en_pano255_title"><![CDATA[Campudus]]></data>
+  <data name="en_pano257_title"><![CDATA[CoWorking Space]]></data>
+  <data name="en_spotpoint1072_tooltip"><![CDATA[Weissarbeit]]></data>
+  <data name="en_spotpoint1072openurlwebsiteurl"><![CDATA[http://www.weissarbeit.net]]></data>
+  <data name="en_pano259_title"><![CDATA[Gang rechts vorne]]></data>
+  <data name="en_pano263_title"><![CDATA[Gang rechts hinten]]></data>
+  <data name="en_spotpoint1074_tooltip"><![CDATA[nexro]]></data>
+  <data name="en_spotpoint1074openurlwebsiteurl"><![CDATA[http://www.nexro.de/]]></data>
+  <data name="en_pano261_title"><![CDATA[BayCix Verwaltung]]></data>
+  <data name="en_pano269_title"><![CDATA[BayCix Technik]]></data>
+  <data name="en_pano265_title"><![CDATA[Vorraum Rechenzentrum]]></data>
+  <data name="en_pano267_title"><![CDATA[BayCix Rechenzentrum]]></data>
+
+  <data name="en_panogroup477_title"><![CDATA[2. OG]]></data>
+
+  <data name="en_pano476_title"><![CDATA[Treppenhaus]]></data>
+  <data name="en_pano480_title"><![CDATA[CoWorking Space]]></data>
+  <data name="en_pano484_title"><![CDATA[xpecto AG - Gang]]></data>
+  <data name="en_pano482_title"><![CDATA[xpecto AG - Leitung]]></data>
+  <data name="en_pano486_title"><![CDATA[xpecto AG - Entwicklung]]></data>
+  <data name="en_pano488_title"><![CDATA[xpecto AG - Support]]></data>
+  <data name="en_pano478_title"><![CDATA[Küche]]></data>
+
+
+
+
+
+
+  <data name="en_controlBar_dockedThumbnailszoomInTip"><![CDATA[vergrößern]]></data>
+  <data name="en_controlBar_dockedThumbnailszoomOutTip"><![CDATA[verkleinern]]></data>
+  <data name="en_controlBar_dockedThumbnailsopenFsTip"><![CDATA[Vollbild betreten]]></data>
+  <data name="en_controlBar_dockedThumbnailscloseFsTip"><![CDATA[Vollbild verlassen]]></data>
+  <data name="en_controlBar_dockedThumbnailsautorotateOnTip"><![CDATA[Autorotation starten]]></data>
+  <data name="en_controlBar_dockedThumbnailsautorotateOffTip"><![CDATA[Autorotation stoppen]]></data>
+  <data name="en_controlBar_dockedThumbnailssoundsOnTip"><![CDATA[Soundeffekte starten]]></data>
+  <data name="en_controlBar_dockedThumbnailssoundsOffTip"><![CDATA[Soundeffekte stoppen]]></data>
+  <data name="en_controlBar_dockedThumbnailsshowSpotsTip"><![CDATA[Hotspots zeigen]]></data>
+  <data name="en_controlBar_dockedThumbnailshideSpotsTip"><![CDATA[Hotspot verstecken]]></data>
+  <data name="en_controlBar_dockedThumbnailsgyroOnTip"><![CDATA[Gyroskop einschalten]]></data>
+  <data name="en_controlBar_dockedThumbnailsgyroOffTip"><![CDATA[Gyroskop ausschalten]]></data>
+  <data name="en_controlBar_dockedThumbnailsgyroNotTip"><![CDATA[Gyroscope is unavailable]]></data>
+  <data name="en_controlBar_dockedThumbnailsdisplayHelpTip"><![CDATA[Hilfe zeigen]]></data>
+  <data name="en_controlBar_dockedThumbnailshideHelpTip"><![CDATA[Hilfe verstecken]]></data>
+  <data name="en_controlBar_dockedThumbnailsdisplayControlsTip"><![CDATA[Steuerung zeigen]]></data>
+  <data name="en_controlBar_dockedThumbnailshideControlsTip"><![CDATA[Steuerung verstecken]]></data>
+  <data name="en_buttonForASinglePanotooltip"><![CDATA[]]></data>
+  <data name="en_buttonForASinglePanopanoid1190"><![CDATA[pano480]]></data>
+  <data name="en_buttonForASinglePanopanoid1211"><![CDATA[pano482]]></data>
+  <data name="en_buttonForASinglePanopanoid1222"><![CDATA[pano484]]></data>
+  <data name="en_buttonForASinglePanopanoid1233"><![CDATA[pano486]]></data>
+  <data name="en_buttonForASinglePanopanoid1244"><![CDATA[pano488]]></data>
+  <data name="en_buttonForASinglePanoopenurlwebsiteurl"><![CDATA[http://www.xpecto.com]]></data>
+  <data name="en_buttonForASinglePano1tooltip"><![CDATA[]]></data>
+  <data name="en_buttonForASinglePano1panoid1190"><![CDATA[pano261]]></data>
+  <data name="en_buttonForASinglePano1panoid1201"><![CDATA[pano265]]></data>
+  <data name="en_buttonForASinglePano1panoid1212"><![CDATA[pano267]]></data>
+  <data name="en_buttonForASinglePano1panoid1223"><![CDATA[pano269]]></data>
+  <data name="en_buttonForASinglePano1openurlwebsiteurl"><![CDATA[https://www.baycix.de]]></data>
+  <data name="en_buttonForASinglePano2tooltip"><![CDATA[]]></data>
+  <data name="en_buttonForASinglePano2panoid1190"><![CDATA[pano255]]></data>
+  <data name="en_buttonForASinglePano2openurlwebsiteurl"><![CDATA[http://campudus.com]]></data>
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[http://www.kleinwelt.de]]></data>
+
+
+  <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="en_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="en_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="en_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="en_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="en_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="en_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="en_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="en_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="en_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="en_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="en_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="en_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="en_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="en_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="en_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="en_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="en_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="en_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="en_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="en_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="en_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="en_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="en_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="en_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+  <data name="en_pano26_description"><![CDATA[<font face="trebuchet ms, sans-serif"><br><b><font size="4">dieser Raum ist zu vermieten</font></b><br><br><font size="4">&nbsp; &nbsp;24m²</font><br><br><font size="2">Die Miete beträgt 8,- €/m² zzgl. Anteil Gemeinschaftsfläche und Nebenkosten. Im Preis inklusive ist die Nutzung von:</font></font><div><font size="2" face="trebuchet ms, sans-serif"><br></font><ul style="font-size: small;"><li><font face="trebuchet ms, sans-serif">Besprechungszimmer mit Beamer&nbsp;mit ca. 25 m²</font></li><li><font face="trebuchet ms, sans-serif">Eventbereich mit Beamer</font></li><li><font face="trebuchet ms, sans-serif">Gemeinschaftsbereiche mit Küchen</font></li></ul><div><font size="2" face="trebuchet ms, sans-serif"><br></font></div><font face="trebuchet ms, sans-serif"><font size="2"><b>Anfragen an:</b></font><br><br><font size="2"><a href="mailto:Claudia.Obermaier@landshut.de" target="_blank">Claudia.Obermaier@landshut.de</a></font><br><font size="2">0871 / 88-1406</font></font><br></div>]]></data>
+
+  <data name="en_pano28_description"><![CDATA[<font face="trebuchet ms, sans-serif"><br><b><font size="4">dieser Raum ist <u>reserviert</u></font></b><br><br><font size="4">&nbsp; &nbsp;36m²</font><br><br><font size="2">Die Miete beträgt 8,- €/m² zzgl. Anteil Gemeinschaftsfläche und Nebenkosten. Im Preis inklusive ist die Nutzung von:</font></font><div><font size="2" face="trebuchet ms, sans-serif"><br></font><ul style="font-size: small;"><li><font face="trebuchet ms, sans-serif">Besprechungszimmer mit Beamer&nbsp;mit ca. 25 m²</font></li><li><font face="trebuchet ms, sans-serif">Eventbereich mit Beamer</font></li><li><font face="trebuchet ms, sans-serif">Gemeinschaftsbereiche mit Küchen</font></li></ul><div><font size="2" face="trebuchet ms, sans-serif"><br></font></div><font face="trebuchet ms, sans-serif"><font size="2"><b>Anfragen an:</b></font><br><br><font size="2"><a href="mailto:Claudia.Obermaier@landshut.de" target="_blank">Claudia.Obermaier@landshut.de</a></font><br><font size="2">0871 / 88-1406</font></font></div>]]></data>
+
+  <data name="en_pano32_description"><![CDATA[<font size="4" color="#444444" face="trebuchet ms, sans-serif"><div><font style="color: rgb(0, 0, 0); font-size: medium;"><br><b><font size="4">dieser Raum ist zu vermieten</font></b><br><br><font size="4">&nbsp; &nbsp;24m²</font><br><br><font size="2">Die Miete beträgt 8,- €/m² zzgl. Anteil Gemeinschaftsfläche und Nebenkosten. Im Preis inklusive ist die Nutzung von:</font></font><div style="color: rgb(0, 0, 0); font-size: medium;"><font><font size="2"><br></font><ul style="font-size: small;"><li>Besprechungszimmer mit Beamer&nbsp;mit ca. 25 m²</li><li>Eventbereich mit Beamer</li><li>Gemeinschaftsbereiche mit Küchen</li></ul><div><font size="2"><br></font></div><font size="2"><b>Anfragen an:</b></font><br><br><font size="2"><a href="mailto:Claudia.Obermaier@landshut.de" target="_blank">Claudia.Obermaier@landshut.de</a></font><br><font size="2">0871 / 88-1406</font></font></div></div></font>]]></data>
+
+  <data name="en_pano34_description"><![CDATA[<font face="trebuchet ms, sans-serif"><br><b><font size="4">dieser Raum ist zu vermieten</font></b><br><br><font size="4">&nbsp; &nbsp;32m²</font><br><br><font size="2">Die Miete beträgt 8,- €/m² zzgl. Anteil Gemeinschaftsfläche und Nebenkosten. Im Preis inklusive ist die Nutzung von:</font></font><div><font size="2" face="trebuchet ms, sans-serif"><br></font><ul style="font-size: small;"><li><font face="trebuchet ms, sans-serif">Besprechungszimmer mit Beamer&nbsp;mit ca. 25 m²</font></li><li><font face="trebuchet ms, sans-serif">Eventbereich mit Beamer</font></li><li><font face="trebuchet ms, sans-serif">Gemeinschaftsbereiche mit Küchen</font></li></ul><div><font size="2" face="trebuchet ms, sans-serif"><br></font></div><font face="trebuchet ms, sans-serif"><font size="2"><b>Anfragen an:</b></font><br><br><font size="2"><a href="mailto:Claudia.Obermaier@landshut.de" target="_blank">Claudia.Obermaier@landshut.de</a></font><br><font size="2">0871 / 88-1406</font></font></div>]]></data>
+
+
+
+
+
+
+
+  <data name="en_pano257_description"><![CDATA[<div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif">Tageweise können Sie in unserer Coworking-Area arbeiten:&nbsp;</font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><font size="4">&nbsp; &nbsp; &nbsp;Tag 18 € /&nbsp;</font><span style="font-size: large;">Monat 180 € (Brutto)</span></font></div><div><span style="font-size: large;"><font face="trebuchet ms, sans-serif"><br></font></span></div><div><span style="font-size: large;"><font face="trebuchet ms, sans-serif"><br></font></span></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif">Hierbei gelten die <a href="http://link.work/agbs.html" target="_blank">Allgemeinen Nutzungsbedingungen</a> des LINKWORK.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+  <data name="en_pano480_description"><![CDATA[<div><font face="trebuchet ms, sans-serif"><br>Tageweise können Sie in unserer Coworking-Area arbeiten:&nbsp;</font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif"><font size="4">&nbsp; &nbsp; &nbsp;Tag 18 € /&nbsp;</font><span style="font-size: large;">Monat 180 € (Brutto)</span></font></div><div><span style="font-size: large;"><font face="trebuchet ms, sans-serif"><br></font></span></div><div><span style="font-size: large;"><font face="trebuchet ms, sans-serif"><br></font></span></div><div><font face="trebuchet ms, sans-serif"><br></font></div><div><font face="trebuchet ms, sans-serif">Hierbei gelten die&nbsp;<a href="http://link.work/agbs.html" target="_blank">Allgemeinen Nutzungsbedingungen</a>&nbsp;des LINKWORK.</font></div>]]></data>
+
+
+
+
+
+
+
+</krpano>
