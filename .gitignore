@@ -1,3 +1,5 @@
 *.iml
 *.idea
 *.sass-cache
+out/
+node_modules/
